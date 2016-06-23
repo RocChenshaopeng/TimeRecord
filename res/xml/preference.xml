@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="打卡提醒" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notify_morning_click"
+            android:summary="@string/preference_summary_morning"
+            android:title="@string/preference_title_morning" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notify_noon_click"
+            android:summary="@string/preference_summary_noon"
+            android:title="@string/preference_title_noon" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="notify_afternoon_click"
+            android:summary="@string/preference_summary_afternoon"
+            android:title="@string/preference_title_afternoon" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="额度设置" >
+        <EditTextPreference
+            android:defaultValue="40"
+            android:dialogTitle="请输入"
+            android:key="ExtraTime"
+            android:summary="Integer_Extra_time"
+            android:title="加班" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:defaultValue="20"
+            android:dialogTitle="请输入"
+            android:key="DelayTime"
+            android:summary="Integer_Delay_time"
+            android:title="迟到" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="登录模式" >
+        <ListPreference
+            android:defaultValue="NoPassword"
+            android:dialogTitle="请选择你喜好的登录模式"
+            android:entries="@array/my_load_mode"
+            android:entryValues="@array/my_load_mode"
+            android:key="list_key"
+            android:summary="LoadMode"
+            android:title="模式设置" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

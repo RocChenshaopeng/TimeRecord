@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 中暗蓝色 -->
+    <item android:drawable="@drawable/skyblue" android:state_pressed="true"/>
+
+</selector>

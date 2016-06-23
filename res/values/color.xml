@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="gray">#ff888888</drawable>
+    <drawable name="green">#ff00ff00</drawable>
+    <drawable name="wheat">#F5DEB3</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="gainsboro">#DCDCDC</drawable>
+    <drawable name="red">#ffff0000</drawable>
+    <drawable name="tomato">#FF6347</drawable>
+    <drawable name="blue">#ff0000ff</drawable>
+    <drawable name="yellow">#FFFF00</drawable>
+    <drawable name="skyblue">#87CEEB</drawable>
+    <drawable name="mediumslateblue">#7B68EE</drawable>
+    <drawable name="slategray">#708090</drawable>
+    
+    <drawable name="lightgoldenrodyellow">#FAFAD2</drawable>
+    <drawable name="addcolor">#38455a</drawable>
+</resources>

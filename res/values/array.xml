@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_load_mode">
+        <item>NoPassword</item>
+        <item>ByPassWord</item>
+    </string-array> 
+</resources>
